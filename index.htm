@@ -3,10 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello commerce websits</h1>
+
+   <div class="container"> 
+        <nav class="navbar navbar-expand-sm font-weight-bold navbar-light bg-light"> 
+             <div class="navbar-brand"> 
+                 <img src="images/logo.png" alt="">
+             </div>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggle" ><span class="navbar-toggler-icon bg-dark"></span></button>
+             <div class="collapse navbar-collapse" id="navbar-toggle">
+             <ul class=" navbar-nav"> 
+                <li class="nav-item"> <a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"> <a href="#" class="nav-link">Product</a></li>
+                <li class="nav-item"> <a href="#" class="nav-link">About Us</a></li>
+                <li class="nav-item"> <a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+        </nav>
+   </div>
+    
+   <div class="container" id="carosuel"> 
+        <div class="carouselExampleControls" class="carousel slide  " class=""  data-ride="carousel">
+             <div class="carousel-inner coustom-bg" > 
+                  <div class="carousel-item active">
+                       <div class="row align-items-center"> 
+                            <div class="col-md-7"> 
+                                  <h1>Mi LED TV 4A PRO 32</h1>
+                                  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+                                </p>
+                                <h1 class="price">$1289</h1>
+                                <button class="buy-now-button" >Buy Now</button>
+                            </div>
+                            <div class="col-md-5"> 
+                                <img class="d-block w-100" src="images/banner-images/tv.png" alt="">
+                            </div>
+                       </div>
+                  </div>
+                  <div class="carousel-item"> 
+                       <div class="row align-items-center"> 
+                           <div class="col-md-7"> 
+                           <h1>Cool Dude Headphone</h1>
+                           <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                           <h1 class="price">$420</h1>
+                           <button class="buy-now-button" >Buy Now</button>
+
+                           </div>
+                           <div class="col-md-5"> 
+                            <img class="d-block w-100" src="images/banner-images/headphone.png" alt="">
+                           </div>
+                       </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="row align-items-center"> 
+                          <div class="col-md-7">
+                             <h1>X-Box for your living room</h1>
+                             <p>This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
+                             <h1 class="price" >$600</h1>
+                             <button class="buy-now-button" >Buy Now</button>
+                          </div>
+                          <div class="col-md-5"> 
+                            <img class="d-block w-100" src="images/banner-images/xbox.png" alt="">
+                          </div>
+                      </div>
+                  </div>
+             </div>
+        </div>
+   </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
 </body>
 </html>
