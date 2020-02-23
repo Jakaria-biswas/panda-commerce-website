@@ -19,3 +19,33 @@
     border-radius:8px;
     cursor:pointer;
 }
+
+.categories_section img{
+    width:120px;
+}
+.categories1, .categories2, .categories3{
+    padding:10px 20px;
+    color:#fff;
+    border-radius:10px;
+}
+.categories1{
+    background-color:orange;
+}
+.categories2{
+    background-color:#FF1973;
+}
+.categories3{
+    background-color:#4148FC;
+}
+
+.card{
+    border:none;
+    box-shadow:5px 5px 10px lightgray;
+}
+.card-footer{
+    border-top:none;
+    background-color:#fff;
+}
+#subscribe{
+    height:300px;
+}
